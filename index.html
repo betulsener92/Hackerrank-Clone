@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackerrank Clone</title>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+  </script>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+</head>
+<body>
+
+    <div class="header-top bg-dark d-none d-lg-flex">
+      <ul>
+        <li><a href="#">Contact us</a></li>
+        <span class="line-2"></span>
+        <li><a href="#">Log in</a></li>
+        <i class="bi bi-chevron-right"></i>
+      </ul>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg m-3">
+        <div class="container-fluid container-lg cont">
+          <div class="d-lg-none">
+            <a href="">
+            <img src="img/hackerrank_logo.png" alt="" style="width: 10rem;"></a></div>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#hackMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="offcanvas offcanvas-top h-100" tabindex="-1" id="hackMenu" aria-describedby="open user menu">
+  
+            <div class="offcanvas-header">
+                <div class="close-logo">
+              <img src="img/hackerrank_logo.png" alt="" style="width: 10rem;" ></div>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+            </div>
+  
+            <div class="offcanvas-body">
+
+              <div class="d-none d-lg-flex ">
+                <a href="">
+                <img src="img/hackerrank_logo.png" alt="" style="width: 10rem;"></a></div>
+
+              <div>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Solutions</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+              </ul></div>
+
+              <div>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">For candidates</a></li>
+                <li class="nav-item d-lg-none"><a href="#" class="nav-link">Contact Us</a></li>
+                <li class="nav-item d-flex justify-content-center d-lg-none"><a href="#" class="nav-link">Log in <i class="bi bi-arrow-right"></i></a></li>
+                <span class="line d-none d-lg-block"></span>
+                <li class="nav-item"><button type="button" class="btn btn-light">Request demo</button></li>
+                <li class="nav-item"><button type="button" class="btn btn-success">Sign up</button></li>
+              </ul></div>
+
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <section class="skills">
+      <div class="container">
+        <div class="skills-1">
+        <h1>Skills speak louder than words</h1>
+        <p>We help companies develop the strongest tech teams around. We help candidates sharpen their tech skills and pursue job opportunities.</p>
+      </div>
+
+        <div class="skills-2">
+          <button class="btn btn-success">Sign up</button>
+          <button class="btn btn-outline-dark">Request demo</button>
+        </div>
+
+        <p class="hack">Over 40% of developers worldwide and 3,000 companies use HackerRank</p>
+
+        <div class="logos">
+          <img src="img/peloton_black.png" alt="">
+          <img src="img/atlassian_black.png" alt="">
+          <img src="img/bloomberg_black.png" alt="">
+          <img src="img/vmware_black.png" alt="">
+          <img src="img/stripe_black (1).png" alt="">
+          <img src="img/goldmansachs_black.png" alt="">
+          <img src="img/adobe_black.png" alt="">
+          <img src="img/linkedin_black.png" alt="">
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="job">
+      <div class="container-fluid">
+        <div class="job-content">
+          <h2>It's not a pipeline problem. </h2>
+            <h2>It's a spotlight problem.</h2>  
+            <p>Tech hiring needs a reset. From prepping for jobs and practicing coding to running a world-class technical interview, give developers the tools they need to showcase their skills, passion, and potential.</p>
+      </div>
+
+        <div class="job-link">
+          <a href="#">Prep</a>
+          <a href="#">Screen</a>
+          <a href="#">Interview</a>
+        </div>
+
+        <div class="job-table">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col">
+              <div class="code"><i class="bi bi-circle"></i><i class="bi bi-dash"></i> :: Coding practice ::</div>
+              <div>
+                <h4 class="pb-3">Explore and expand your skills.</h4>
+                <p>Every idea has a first line of code. Prep for jobs and sharpen your skills alongside a global community of developers. Access the content you need to develop new skills - and land the job you've dreamed of.</p>
+              </div>
+              <button class="btn btn-outline-light">Sign up and practice <i class="bi bi-arrow-right"></i></button>
+            </div>
+            <div class="col">
+              <img src="img/community.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="code-test">
+      <div class="container">
+        <div class="test"> :: Coding tests ::</div>
+        <div>
+        <h2>Join the movement.</h2>
+        <h2>Screen on skills.</h2></div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide mt-4" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/report-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/resume.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="library">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col">
+            <h3 class="mb-4">Leave the binary tree behind.</h3>
+            <p>Build coding questions using our library of dev-friendly content that challenges them to solve the problems they'd actually tackle on the job.</p>
+            <a href="#">Start free trial <i class="bi bi-arrow-right"></i> </a>
+          </div>
+          <div class="col">
+            <div class="headline">
+            <img src="img/binarytree-1.png" alt="" class="img-fluid" ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="library">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col">
+            <h3 class="mb-4">Focus on what really matters: the code.</h3>
+            <p>Build skills-based coding tests with tech problems a developer would encounter on the job — and hire the team behind your next big idea.</p>
+            <a href="#">Request a demo <i class="bi bi-arrow-right"></i> </a>
+          </div>
+          <div class="col">
+            <div class="headline">
+            <img src="img/code-1.png" alt="" class="img-fluid" ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="library">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col">
+            <h3 class="mb-4">Identify top contenders</h3>
+            <p>Identify top contenders and invite them to meet your team using data-driven decisions that help level the playing field for developers everywhere.</p>
+            <a href="#">Learn more <i class="bi bi-arrow-right"></i> </a>
+          </div>
+          <div class="col">
+            <div class="headline">
+            <img src="img/contenders.png" alt="" class="img-fluid" ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="interview">
+      <div class="container">
+        <div class="interview-head">
+            <div><i class="bi bi-circle"></i></div>
+            <div><i class="bi bi-three-dots-vertical"></i></div>
+            <p class="inter">:: Technical interviews ::</p>
+            <h2>Interview like it's <span>2023</span></h2>  
+            <p>Ditch out of reach and out of touch interview questions about golf balls and 747s — and turn off your clunky screen share for good. Code, create, and collaborate with an IDE built to showcase real-world skills in a real-world environment.</p>
+      </div>
+
+        
+          <button class="btn btn-success">Learn more</button>
+        
+
+        <div>
+          <em>
+            <img src="img/tool1.png" alt="">
+            <img src="img/tool2.png" alt="">
+            <img src="img/tool3.png" alt="">
+            <img src="img/tool4.png" alt="">
+            <img src="img/tool5.png" alt="">
+            <img src="img/tool6.png" alt="">
+            <img src="img/tool7.png" alt="">
+          </em>
+        <div>
+
+        <div class="int-img">
+          <img src="img/interview1.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="company">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-7">
+              <h2>Every company is a tech company. </h2>
+            <h2>We're here to help 'em all.</h2>  
+            <p>More than 3,000 tech teams, representing all industries and from countries around the world, trust HackerRank to connect with developers and add cutting-edge skills to their teams.</p>
+            <p>That includes 25% of the Fortune 100 — and that moonshot startup that just came out of stealth.</p>
+          </div>
+            <div class="col-12 col-lg-5">
+             <img src="img/fake-s.jpg" alt="" class="img-fluid">
+          </div>
+
+          <div class="logos">
+            <img src="img/peloton_black.png" alt="">
+            <img src="img/atlassian_black.png" alt="">
+            <img src="img/bloomberg_black.png" alt="">
+            <img src="img/vmware_black.png" alt="">
+            <img src="img/stripe_black (1).png" alt="">
+            <img src="img/goldmansachs_black.png" alt="">
+            <img src="img/adobe_black.png" alt="">
+            <img src="img/linkedin_black.png" alt="">
+          </div>
+  
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="double-button">
+      <div class="home-links">
+      <div class="container">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col">
+              <h2>Practice coding challenges & <span>prep for interviews</span></h2> 
+            <p class="min">Start practicing your skills now and land the job of your dreams.</p>
+            <button class="btn btn-success">Join the community</button>
+          </div>
+      
+          <div class="col">
+            <h2>Get started <span>hiring with HackerRank</span></h2>
+          <p>More than 3,000 tech teams, representing all industries and from countries around the world, trust HackerRank</p>
+          <button class="btn btn-success">Request a demo</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <footer>
+      <div class="container">
+          <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5">
+              <div class="col">
+                  <ul>
+                      <li><a href="#">PRODUCTS</a></li>
+                      <li><a href="#">Remote First Hiring</a></li>
+                      <li><a href="#">Remote First Planning</a></li>
+                      <li><a href="#">Remote First Interviewing</a></li>
+                      <li><a href="#">Remote First Ranking</a></li>
+                      <li><a href="#">Insights</a></li>
+                      <li><a href="#">HackerRank for Developers</a></li>
+                      <li><a href="#">HackerRank for School</a></li>
+                      <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Assessment Science</a></li>
+                  </ul>
+              </div>
+              <div class="col">
+                <ul>
+                      <li><a href="#">SOLUTIONS</a></li>
+                      <li><a href="#">Enterprise Technical Hiring</a></li>
+                      <li><a href="#">Remote Hiring</a></li>
+                      <li><a href="#">University Recruiting</a></li>
+                      <li><a href="#">Diversity & Inclusion</a></li>
+                      <li><a href="#">Professional Hiring</a></li>
+                      <li><a href="#">Professional Services</a></li>
+                  </ul>
+              </div>
+              <div class="col">
+               <ul>
+                      <li><a href="#">RESOURCES</a></li>
+                      <li><a href="#">Customer Stories</a></li>
+                      <li><a href="#">Events</a></li>
+                      <li><a href="#">Datasheets</a></li>
+                      <li><a href="#">Guides</a></li>
+                      <li><a href="#">Partners</a></li>
+                      <li><a href="#">Product Support</a></li>
+                      <li><a href="#">Webinars</a></li>
+                      <li><a href="#">Research</a></li>
+                  </ul>
+              </div>
+
+              <div class="col">
+                <ul>
+                       <li><a href="#">BLOG</a></li>
+                       <li><a href="#">Find a Job</a></li>
+                       <li><a href="#">Hire Developers</a></li>
+                       <li><a href="#">Industry Insights</a></li>
+                       <li><a href="#">Manage Developers</a></li>
+                       <li><a href="#">News and Updates</a></li>
+                   </ul>
+               </div>
+
+               <div class="col">
+                <ul>
+                       <li><a href="#">ABOUT US</a></li>
+                       <li><a href="#">Contact Us</a></li>
+                       <li><a href="#">Company</a></li>
+                       <li><a href="#">Careers</a></li>
+                       <li><a href="#">Our Team</a></li>
+                       <li><a href="#">Newsroom</a></li>
+                       <li><a href="#">Security and Compliance</a></li>
+                       <li><a href="#">Status</a></li>
+                   </ul>
+               </div>
+          </div>
+
+          <div class="social">
+            <div>
+            <img src="img/indir.svg" alt="" style="width: 30px;">
+            <a href="https://www.facebook.com/hackerrank/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/hackerrank/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/hackerrank"><i class="bi bi-twitter"></i></a>
+          </div>
+
+          <div>
+            <p>Copyright © 2023 HackerRank</p>
+            <a href="#">Privacy Policy</a>
+          </div>
+          </div>
+
+
+      </div>
+  </footer>
+
+
+  
+    <script>
+      ScrollReveal().reveal('.headline', { delay: 450 });
+    </script>
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

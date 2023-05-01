@@ -1,0 +1,636 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0E141E;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+/*  ----------------   HEADER-TOP  ------------------  */
+
+.header-top ul{
+    margin: 0;
+    padding: 10px;
+    padding-right: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.header-top ul li{
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.header-top ul a{
+    text-decoration: none;
+    color: rgb(209, 207, 207);
+    margin-left: 15px;
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-top ul .line-2{
+    width: 1.1px;
+    margin-top: 5px;
+    height: 1rem;
+    background-color: white;
+    display: inline-block;
+}
+
+.header-top ul i{
+    color: white;
+    font-size: 0.6rem;
+}
+
+
+
+
+
+/*  ----------------   NAVBAR  ------------------  */
+
+nav.navbar .cont{
+    display: flex;
+    align-items: center;
+}
+
+.offcanvas-header .close-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.offcanvas-body ul{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.offcanvas-body ul li {
+    padding-bottom: 20px;
+}
+
+.offcanvas-body .navbar-nav .line{
+    width: 1.1px;
+    margin-top: 10px;
+    height: 1rem;
+    background-color: black;
+    display: inline-block;
+}
+
+.offcanvas-body .navbar-nav .nav-link{
+    color: black;
+    font-size: 16px;
+}
+
+.offcanvas-body .navbar-nav button{
+    width: 100%;
+}
+
+@media screen and (min-width: 992px){
+    .offcanvas-body{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .offcanvas-body div ul{
+        gap: 15px;
+    }
+
+    .offcanvas-body .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+}
+
+
+
+/*  ----------------   SECTION SKILLS ------------------  */
+
+section.skills{
+    background-image: linear-gradient(180deg,white 0%,rgb(251, 235, 254));
+}
+
+section.skills .container .skills-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.skills-1 h1{
+    font-size: 32px ;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    .skills-1 h1{
+        font-size: 64px ;
+        font-weight: 900;
+        max-width: 780px;
+        text-align: center;
+    }
+}
+
+.skills-1 p{
+    max-width: 620px;
+    text-align: center;
+}
+
+.skills-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section.skills .container .hack{
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 992px){
+    section.skills .container .hack{
+        margin-top: auto;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .skills-2{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .skills-2 button{
+        margin-top: 30px;
+        margin-bottom: 60px;
+        width: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+div.logos{
+    text-align: center;
+}
+
+div.logos img{
+    width: 120px;
+    height: auto;
+}
+
+
+
+/*  ----------------   SECTION JOB  ------------------  */
+
+section.job{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+section.job .container-fluid{
+    width: 90%;
+    margin-right: auto;
+     margin-left: auto;
+ }
+
+
+@media screen and (min-width: 992px){
+    section.job .container-fluid{
+   width: 80%;
+   margin-right: auto;
+    margin-left: auto;
+}
+}
+
+section.job .job-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.job .job-content h2{
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    section.job .job-content h2{
+        font-size: 56px;
+    }
+}
+
+section.job .job-content h2:nth-child(2){
+    color: #4BB36E;
+    margin-bottom: 25px;
+}
+
+section.job .job-content p{
+    max-width: 680px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.job .job-link{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section.job .job-link a{
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto 70px;
+    text-decoration: none;
+    color:  #39424e;
+}
+
+section.job .job-link a:hover{
+    text-decoration: underline;
+}
+
+
+section.job .job-table{
+    padding: 30px;
+    background-color: #111621;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+section.job .job-table .row{
+    color: white;
+    padding: 25px 20px;
+}
+
+@media screen and (min-width: 992px){
+    section.job .job-table{
+        padding: 0;
+    }
+
+    section.job .job-table .row{
+        padding: 25px 90px;
+    }
+    
+    section.job .job-table .row{
+        padding: 50px 50px 10px 50px;
+    }
+
+    section.job .job-table .row p{
+        max-width: 400px;
+    }
+
+    section.job .job-table .row .col div:nth-child(2){
+        margin-left: 30px;
+    }
+
+    section.job .job-table .row .col button{
+        margin-left: 30px;
+    }
+}
+
+.job-table img{
+    width: 100%;
+    height: auto;
+}
+
+section.job .job-table .row .col div{
+    padding-bottom: 30px;
+}
+
+section.job .job-table .row .col .code{
+    font-size: 14px;
+    color:#B7C9CC ;
+}
+
+section.job .job-table .row .col div h3{
+    margin-bottom: 25px;
+}
+
+section.job .job-table .row .col .btn{
+    width: 100%;
+}
+
+@media screen and (min-width: 480px){
+    section.job .job-table .row .col .btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+}
+}
+
+
+
+
+/*  ----------------   SECTION CODE-TEST  ------------------  */
+
+section.code-test{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section.code-test .container .test{
+    margin-bottom: 25px;
+}
+
+section.code-test .container div:nth-child(2) h2:nth-child(1){
+    color:  #4BB36E;
+}
+
+@media screen and (min-width: 992px){
+    section.code-test .container div h2{
+        font-size: 56px;
+    }
+
+    section.code-test .container{
+        max-width: 70%;
+    }
+}
+
+
+
+/*  ----------------   SECTION LİBRARY  ------------------  */
+
+
+
+section.library{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+section.library .container .row .col a{
+    text-decoration: none;
+    color: #0E141E;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+section.library .container .row .col .headline{
+    margin-top: 40px;
+}
+
+
+@media screen and (min-width: 992px){
+
+    section.library .container .col:nth-child(1){
+        margin-top: 100px;
+    }
+
+
+    section.library .container h3{
+        font-size: 32px;
+    }
+
+    section.library .container{
+        max-width: 70%;
+    }
+
+    section.library .container .row h3,
+    section.library .container .row p{
+        max-width: 400px;
+    }   
+}
+
+
+
+
+/*  ----------------   SECTION INTERVIEW  ------------------  */
+
+section.interview div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.interview div em{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/************ o satırın hep aynı kalmasınız sağlayan arkadaş **************/
+
+section.interview div{
+    text-align: center;
+}
+
+section.interview .int-img{
+    margin-top: 40px;
+}
+
+section.interview div em img{
+    max-width: calc(100%/7);
+    height: auto;
+}
+
+section.interview .container .interview-head .inter{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+section.interview .container h2 span{
+    color: #068932;
+}
+
+section.interview .container p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section.interview .container .btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    background-color: #068932 ;
+}
+
+
+@media screen and (min-width: 992px){
+
+    section.interview .container{
+        max-width: 70%;
+    }
+
+    section.interview .container h2{
+        font-size: 56px;
+    }
+    
+}
+
+/*  ----------------   SECTION COMPANY  ------------------  */
+
+section.company {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+section.company .container .row div h2:nth-child(2){
+    color: #079b39;
+    margin-bottom: 25px;
+}
+
+section.company .container .row .img-fluid{
+    width: 100%;
+}
+
+@media screen and (min-width: 992px){
+    section.company .container{
+        max-width: 80%;
+    }
+
+    section.company .container .row div h2{
+        font-size: 36px;
+    }
+}
+
+
+/*  ----------------   SECTION DOUBLE-BUTTON  ------------------  */
+
+section.double-button{
+    margin-bottom: 100px;
+}
+
+section.double-button .container .row .col{
+    padding-bottom: 50px;
+}
+
+section.double-button .container .row .col h2,
+section.double-button .container .row .col p{
+    padding-bottom: 15px;
+}
+
+section.double-button .container .row .col .min{
+    max-width: 400px;
+}
+
+section.double-button .container .row .col h2 span{
+    color: #15b44a;
+}
+
+section.double-button .container .row .col button{
+    padding: 10px ;
+   background-color: #068932;
+}
+
+@media screen and (min-width: 992px){
+    section.double-button .container .row .col h2{
+        font-size: 36px;
+    }
+
+    section.double-button .container{
+        max-width: 75%;
+    }
+}
+
+
+
+
+footer .container .col ul li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+footer .container .col ul li:nth-child(1){
+    color:  #637681;
+    margin-bottom: 20px;
+    letter-spacing: 0.3em;
+}
+
+footer .container .col ul li a{
+    text-decoration: none;
+    color: #576871;
+    font-size: 14px;
+}
+
+footer .container .col ul li a:hover{
+    color: #068932;
+}
+
+footer .container .social{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer .container .social div{
+    padding: 10px 0;
+}
+
+footer .container .social div i{
+    margin-left: 20px;
+}
+
+footer .container .social a .bi-facebook{
+    font-size: 1.5rem;
+    color: #0C89EF ;
+}
+
+footer .container .social a .bi-linkedin{
+    font-size: 1.5rem;
+    color: #007BB6 ;
+}
+
+footer .container .social a .bi-twitter{
+    font-size: 1.5rem;
+    color: #1DA1F2 ;
+}
+
+footer .container .social p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .container .social a{
+    text-decoration: none;
+    color: #0E141E;
+    font-size: 12px;
+}
+
+footer .container .social {
+    border-top: 1px solid rgba(0, 0, 0, 0.183);
+}
+
+@media screen and (min-width: 992px){
+    footer .container .social{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        border-top: none;
+        margin-top: -50px;
+    }
+}
+
+
+
+
+
+
